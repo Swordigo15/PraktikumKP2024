@@ -3,6 +3,8 @@
 <h3 align="center"> Tahun Ajaran 2023/2024 Semester Ganjil </h3>
 <h3 align ="center">  >> <a align = "center" href = "https://github.com/Swordigo15/PraktikumKP2023/blob/main/Daftar%20Materi.md"> <span align="center">Klik Disini untuk membuka materi praktikum</span></a> << </h3>
 
+![snake gif](https://github.com/TekyaygilFethi/TekyaygilFethi/blob/output/github-contribution-grid-snake.svg)
+
 <br>
 
 <p align="right"> <h3>Tim Asisten Dosen :</h3> 
