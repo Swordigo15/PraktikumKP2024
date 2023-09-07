@@ -21,7 +21,6 @@
          src="https://img.shields.io/badge/whatsapp-4B7F1.svg?style=for-the-badge&logo=whatsapp&logoColor=white"
          alt="azzar" height="30"/></a>
 </p>
-
 <br>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
