@@ -1,11 +1,10 @@
 <h1 align="center">Praktikum Konsep Pemrograman - S1 Informatika UN</h1>
 <h3 align="center"> Tahun Ajaran 2023/2024 Semester Ganjil </h3>
 <h3 align ="center">  >> <a align = "center" href = "https://github.com/Swordigo15/PraktikumKP2023/blob/main/Daftar%20Materi.md"> <span align="center">Klik Disini untuk membuka materi praktikum</span></a> << </h3>
-<h2> Tim Asisten Dosen : </h2>
+
 <br>
 
-<p align="right"> <h3>Profile Views :-</h3> <img src="https://komarev.com/ghpvc/?username=adam-pw&label=Profile%20views&color=0e75b6&style=flat"
-    alt="adam-pw" /> 
+<p align="right"> <h3>Tim Asisten Dosen :-</h3> 
   </p>
 
 <br>
@@ -13,11 +12,11 @@
 <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
 
-- 🌱 I’m currently learning Web Development and other programming languages
+- Muhammad Annys (IF 2022) [Github](https://github.com/Swordigo15)
 
-- 📫 How to reach me **adampithewan@gmail.com**
+- Muhammad Syafiq Ibrahim (IF 2022) [Github](https://github.com/SyafiqMSI)
 
-- ⚡ Fun fact :- Food and Music🎵 are the reasons to live.
+- 
 
 <br>
 
