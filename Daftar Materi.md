@@ -1,7 +1,7 @@
 <h1>Daftar Materi Praktikum Konsep Pemrograman</h1>
 
 - Bab 2 - Structured Programming
-  1. [Pengantar (Program Sederhana, Variabel, dan Basic I/O)](Bab2-StructuredProgramming/1-PengantarProgramSederhanaVariabel.md)
+  1. [Pengantar (Program Sederhana, Variabel, dan Basic I/O)](Bab 2-StructuredProgramming/1-PengantarProgramSederhanaVariabel.md)
   2. [Algoritma, Pseudocode, dan Source Code](Bab2-StructuredProgramming/2-AlgoritmaPseudocodeSourcecode.md)
   3. [Operasi Assignment dan Aritmatika](Bab2-StructuredProgramming/3-OperasiAssignmentdanAritmatika.md)
   4. [Pemilihan dan Perulangan Sederhana](Bab2-StructuredProgramming/4-PemilihandanPerulanganSederhana.md)
