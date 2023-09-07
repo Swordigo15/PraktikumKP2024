@@ -4,7 +4,7 @@
 
 <br>
 
-<p align="right"> <h3>Tim Asisten Dosen :-</h3> 
+<p align="right"> <h3>Tim Asisten Dosen :</h3> 
   </p>
 
 <br>
