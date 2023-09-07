@@ -11,12 +11,10 @@
 
 <p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
-
 - Muhammad Annys (IF 2022) [Github](https://github.com/Swordigo15)
 
 - Muhammad Syafiq Ibrahim (IF 2022) [Github](https://github.com/SyafiqMSI)
 
-- Alfiki Diastama Afan Firdaus (IF 2021) [Github](https://github.com/alfikiafan)
 
 <br>
 
