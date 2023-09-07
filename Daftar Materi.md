@@ -7,10 +7,10 @@
   4. [Pemilihan dan Perulangan Sederhana](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/4-PemilihandanPerulanganSederhana.md)
 
 - Bab 3 - Program Control
-  1. [Pemilihan dengan Switch](Bab3-ProgramControl/1-PemilihanDenganSwitch.md)
-  2. [Perulangan Menggunakan For Statement](Bab3-ProgramControl/2-PerulanganMenggunakanFor.md)
-  3. [Perulangan Menggunakan Do While](Bab3-ProgramControl/3-PerulanganMenggunakanDoWhile.md)
-  4. [Break dan Continue](Bab3-ProgramControl/4-BreakAndContinue.md)
+  1. [Pemilihan dengan Switch](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%203-ProgramControl/1-PemilihanDenganSwitch.md)
+  2. [Perulangan Menggunakan For Statement]([Bab](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%20)3-ProgramControl/2-PerulanganMenggunakanFor.md)
+  3. [Perulangan Menggunakan Do While]([Bab](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%20)3-ProgramControl/3-PerulanganMenggunakanDoWhile.md)
+  4. [Break dan Continue]([Bab](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%20)3-ProgramControl/4-BreakAndContinue.md)
 
 - Bab 4 - Function
   1. [Pengenalan Function](Bab4-CFunction/1-PengenalanFunction.md)
