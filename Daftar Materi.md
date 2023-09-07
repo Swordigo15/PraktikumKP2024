@@ -2,9 +2,9 @@
 
 - Bab 2 - Structured Programming
   1. [Pengantar (Program Sederhana, Variabel, dan Basic I/O)](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/1-PengantarProgramSederhanaVariabel.md)
-  2. [Algoritma, Pseudocode, dan Source Code](Bab2-StructuredProgramming/2-AlgoritmaPseudocodeSourcecode.md)
-  3. [Operasi Assignment dan Aritmatika](Bab2-StructuredProgramming/3-OperasiAssignmentdanAritmatika.md)
-  4. [Pemilihan dan Perulangan Sederhana](Bab2-StructuredProgramming/4-PemilihandanPerulanganSederhana.md)
+  2. [Algoritma, Pseudocode, dan Source Code](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/2-AlgoritmaPseudocodeSourcecode.md)
+  3. [Operasi Assignment dan Aritmatika](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/3-OperasiAssignmentdanAritmatika.md)
+  4. [Pemilihan dan Perulangan Sederhana](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/4-PemilihandanPerulanganSederhana.md)
 
 - Bab 3 - Program Control
   1. [Pemilihan dengan Switch](Bab3-ProgramControl/1-PemilihanDenganSwitch.md)
