@@ -4,7 +4,6 @@
 <h3 align ="center">  >> <a align = "center" href = "https://github.com/Swordigo15/PraktikumKP2023/blob/main/Daftar%20Materi.md"> <span align="center">Klik Disini untuk membuka materi praktikum</span></a> << </h3>
 
 <br>
-
 <p align="right"> <h3>Tim Asisten Dosen :</h3> 
   </p>
 
@@ -16,7 +15,6 @@
 
 
 <br>
-
 <h3 align="left">Connect with us:</h3>
 <p align="left">
   <a href="https://wa.me/+6281391611958" target="blank"><img align="center"
@@ -25,7 +23,6 @@
 </p>
 
 <br>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
   <a href="https://www.cprogramming.com/" target="_blank"
