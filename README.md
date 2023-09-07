@@ -1,4 +1,5 @@
 <h1 align="center">Praktikum Konsep Pemrograman - S1 Informatika UN</h1>
+<p><img src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 <h3 align="center"> Tahun Ajaran 2023/2024 Semester Ganjil </h3>
 <h3 align ="center">  >> <a align = "center" href = "https://github.com/Swordigo15/PraktikumKP2023/blob/main/Daftar%20Materi.md"> <span align="center">Klik Disini untuk membuka materi praktikum</span></a> << </h3>
 
@@ -8,8 +9,6 @@
   </p>
 
 <br>
-
-<p><img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" /></p>
 
 - Muhammad Annys (IF 2022) [Github](https://github.com/Swordigo15)
 
