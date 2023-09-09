@@ -153,14 +153,131 @@ procedure maybeToRight(n){
     }
 }
 ```
+
 Ini adalah daftar lengkap pembanding yang akan membantu Anda memahami perbedaan antara berbagai hal yang dibahas dalam materi ini.
 |Operator	|Keterangan				|Penjelasan					|
-|--		|--					|--						|
+|:----:		|--					|--						|
 |A == B		|sama dengan				|Cek jika A sama dengan B			|
 |A ~= B		|tidak sama dengan			|Cek jika A tidak sama dengan B			|
 |A > B		|lebih besar dari			|Cek jika A lebih besar dari B			|
 |A >= B		|lebih besar dari atau sama dengan	|Cek jika A lebih besar dari atau sama dengan B	|
 |A < B		|kurang dari				|Cek jika A kurang dari B			|
 |A <= B		|kurang dari atau sama dengan		|Cek jika A kurang dari atau sama dengan B	|
+
+## Procedures
+### 1. procedure name(par1, par2, ... , parN){...instructions...}
+Mendefinisikan prosedur baru dengan nama yang Anda inginkan. Prosedur ini dapat memiliki nol atau lebih parameter, yang juga dapat Anda beri nama yang berguna. Di sini mereka disebut par1, par2, . . . , parN. Ini adalah variabel yang dapat Anda gunakan dalam instruksi di antara tanda kurung kurawal. Kode dalam suatu prosedur tidak akan dijalankan secara otomatis, Anda harus menulis 'panggilan prosedur' setiap kali Anda ingin menjalankan instruksi dalam definisi (Lihat instruksi selanjutnya).
+
+**Tip: buat prosedur baru ketika Anda menggunakan serangkaian instruksi lebih dari sekali.**
+
+Contoh:
+```py
+# define how to draw a rectangle
+procedure rectangle(width, height) {
+	paintWhite()
+	repeat(2) {
+		forward(height)
+		right()
+		forward(width)
+		right()
+	}
+	stopPainting()
+}
+```
+
+### 2. name(arg1, arg2, . . . , argN)
+Adalah panggilan ke prosedur dengan nama yang sesuai dan parameter jumlah yang sama dengan argumen Anda. Argumennya, di sini disebut arg1, arg2, . . . , argN, adalah nilai tertentu yang akan digunakan dalam definisi prosedur.
+
+Contoh:
+```py
+# these instructions will be performed
+forward(1)
+rectangle(3,2) # a call to the 'rectangle' procedure
+forward(3)
+rectangle(1,4) # another call with other arguments
+
+# this is the definition of 'rectangle'
+procedure rectangle(width, height) {
+	paintWhite
+	repeat(2) {
+		forward(height)
+		right()
+		forward(width)
+		right()
+	}
+	stopPainting()
+}
+```
+
+### 3. return
+Untuk menghentikan eksekusi suatu prosedur sebelum mencapai akhir, gunakan return dari dalam definisi prosedur. Program terus menjalankan perintah setelah panggilan terkait.
+
+Contoh:
+```py
+# these instructions will be performed
+toWall()
+right
+forward
+
+# go forward until you reach a wall
+procedure toWall() {
+    repeat() {
+        if(frontIsObstacle) {
+            # stop "toWall" procedure,
+            # continue with right and forward
+            return()
+        }
+        else {
+            forward()
+        }
+    }
+}  
+```
+
+### 4. return(arg)
+Untuk menghentikan eksekusi suatu prosedur sebelum mencapai akhir, gunakan return dari dalam definisi prosedur. Program terus menjalankan perintah setelah panggilan terkait.
+
+Secara default, prosedur mengembalikan nilai nol. Anda dapat mengubahnya dengan mengembalikan ekspresi.
+
+Contoh:
+```py
+# this instruction will be performed
+forward(double(3))
+
+# double the given amount
+procedure double(n)
+{
+    return(2 * n)
+} 
+```
+
+### 5. Recursion
+Prosedur dapat didefinisikan secara rekursif. Itu berarti Anda menggunakan prosedur yang Anda definisikan dalam definisi prosedur itu sendiri, dengan memanggilnya. Butuh beberapa saat untuk memahaminya, namun ternyata menjadi alat yang ampuh.
+
+Contoh:
+```py
+# these instructions will be performed
+toWall()
+right
+forward
+
+# go forward until you reach a wall
+procedure toWall()
+{
+      # notice that no loops are used
+      if(frontIsObstacle)
+      {
+          # stop "toWall" procedure
+          return
+      }
+      else{
+          # do one step
+          forward
+          # and do a recursive call!
+          toWall()
+      }
+}   
+```
+
 
 [>> Materi Berikutnya(Operasi Assignment dan Aritmatika)](3-OperasiAssignmentdanAritmatika.md)
