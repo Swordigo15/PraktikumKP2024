@@ -1,4 +1,6 @@
-# Robomind
+# 1.1 - Robomind Basic Instructions
+Dalam pemahaman dasar Robomind, kita akan sering menemui istilah "perintah dasar", "fungsi", dan "program". Namun, sebenarnya apa perbedaan mendasar di antara ketiganya? Mari kita bahas semuanya di sini.
+
 ![img](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Material/Screenshot%20(193).png)
 
 **RoboMind** adalah sebuah aplikasi pemrograman sederhana untuk tujuan pendidikan. Aplikasi ini memiliki berbagai aturan pemrogramannya sendiri untuk melatih para pemula dalam mempelajari dasar-dasar logika pemrograman. Aplikasi ini menunjukkan simulasi robot yang dapat digerakkan dengan perintah-perintah yang tersedia. Selain untuk memperkenal teknik-teknik pemrograman, aplikasi ini juga bertujuan untuk mengenalkan robotika dan intelegensi artifisial.
@@ -38,6 +40,7 @@ Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Beriku
 | Flip Coin | `flipCoin()`     | Menghasilkan pilihan secara random (true atau false)      |
 
 ## Kondisi
+Perintah di bawah digunakan untuk melakukan pengecekan terhadap lingkungan robotnya.
 | see       | Kiri             | Depan             | Kanan             |
 | ---       | ---              | ---               | ---               |
 |           | leftIsObstacle() | frontIsObstacle() | rightIsObstacle() |
