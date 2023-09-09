@@ -21,21 +21,21 @@ Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Beriku
 
 | Tipe      | Command        | Deskripsi                                                 |
 | ---       | ---            | ---                                                       |
-| Move      | forward(n)     | Berjalan n langkah ke depan                               |
-|           | backward(n)    | Berjalan n langkah kebelakang                             |
-|           | left()         | Berputar ke kiri 90 derajat                               |
-|           | right()        | Berputar ke kanan 90 derajat                              |
-|           | north(n)       | Berputar ke arah utara dan berjalan n langkah             |
-|           | south(n)       | Berputar ke arah selatan dan berjalan n langkah           |
-|           | east(n)        | Berputar ke arah timur dan berjalan n langkah             |
-|           | west(n)        | Berputar ke arah barat dan berjalan n langkah             |
-| Paint     | paintWhite()   | Mengecat tanah dengan warna putih                         |
-|           | paintBlack()   | Mengecat tanah dengan warna hitam                         |
-|           | stopPainting() | Berhenti mengecat                                         |
-| Grab      | pickUp()       | Mengambil beacon yang ada didepan robot                   |
-|           | putDown()      | Menaruuh beacon yang ada didepan robot                    |
-|           | eatUp()        | Mengambil dan menghancurkan beacon yang ada didepan robot |
-| Flip Coin | flipCoin()     | Menghasilkan pilihan secara random (true atau false)      |
+| Move      | `forward(n)`     | Berjalan n langkah ke depan                               |
+|           | `backward(n)`    | Berjalan n langkah kebelakang                             |
+|           | `left()`         | Berputar ke kiri 90 derajat                               |
+|           | `right()`        | Berputar ke kanan 90 derajat                              |
+|           | `north(n)`       | Berputar ke arah utara dan berjalan n langkah             |
+|           | `south(n)`       | Berputar ke arah selatan dan berjalan n langkah           |
+|           | `east(n)`        | Berputar ke arah timur dan berjalan n langkah             |
+|           | `west(n)`        | Berputar ke arah barat dan berjalan n langkah             |
+| Paint     | `paintWhite()`   | Mengecat tanah dengan warna putih                         |
+|           | `paintBlack()`   | Mengecat tanah dengan warna hitam                         |
+|           | `stopPainting()` | Berhenti mengecat                                         |
+| Grab      | `pickUp()`       | Mengambil beacon yang ada didepan robot                   |
+|           | `putDown()`      | Menaruuh beacon yang ada didepan robot                    |
+|           | `eatUp()`        | Mengambil dan menghancurkan beacon yang ada didepan robot |
+| Flip Coin | `flipCoin()`     | Menghasilkan pilihan secara random (true atau false)      |
 
 ## Kondisi
 | see       | Kiri             | Depan             | Kanan             |
