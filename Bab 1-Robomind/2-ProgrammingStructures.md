@@ -198,7 +198,7 @@ rectangle(1,4) # another call with other arguments
 
 # this is the definition of 'rectangle'
 procedure rectangle(width, height) {
-	paintWhite
+	paintWhite()
 	repeat(2) {
 		forward(height)
 		right()
@@ -216,8 +216,8 @@ Contoh:
 ```py
 # these instructions will be performed
 toWall()
-right
-forward
+right()
+forward()
 
 # go forward until you reach a wall
 procedure toWall() {
@@ -245,8 +245,7 @@ Contoh:
 forward(double(3))
 
 # double the given amount
-procedure double(n)
-{
+procedure double(n) {
     return(2 * n)
 } 
 ```
@@ -258,26 +257,86 @@ Contoh:
 ```py
 # these instructions will be performed
 toWall()
-right
-forward
+right()
+forward()
 
 # go forward until you reach a wall
-procedure toWall()
-{
+procedure toWall() {
       # notice that no loops are used
-      if(frontIsObstacle)
-      {
+      if(frontIsObstacle) {
           # stop "toWall" procedure
-          return
+          return()
       }
-      else{
+      else {
           # do one step
-          forward
+          forward()
           # and do a recursive call!
           toWall()
       }
 }   
 ```
 
+## Arithmetic
+Pada dasarnya, operasi aritmatika yang didukung robomind meliputi beberapa operator seperti yang dijelaskan pada tabel di bawah ini. Mari kita buat dua variabel sebagai contoh, `a = 20` dan `b = 15`.
+|Operator	|Nama		|Contoh		|
+|:------:	|----		|------		|
+|+		|Penambahan	|`a + b = 35`	|
+|-		|Pengurangan	|`a - b = 5`	|
+|*		|Perkalian	|`a * b = 300`	|
+|/		|Pembagian	|`b / a = 0.75`	|
+
+Dengan operasi ini, Anda dapat menjumlahkan, mengurangi, mengalikan, dan membagi angka. Perhatikan bahwa angkanya harus berupa bilangan bulat (bilangan bulat).
+
+Contoh :
+```py
+# using some arithmetic in expressions
+forward(2+3)
+if(3*4 < 13) {
+	x = 3
+	left(x-2)
+}
+backward(-(3+4)/2)
+```
+
+## Variables
+Dengan variabel Anda dapat mengingat nilai-nilai di bawah nama yang dapat Anda pilih sendiri. Nilai-nilai variabel ini tersedia nanti di seluruh skrip. Anda bisa mendapatkan nilai-nilai ini, dengan menggunakan kembali namanya. Anda dapat mengingat nilai ekspresi apa pun (jadi: angka, perhitungan, ekspresi logis, lihat perintah, kembalikan nilai).
+
+Contoh:
+```py
+# store a number
+x = 42
+
+# store another number, based on x
+y = x / 2
+
+# store a logical expression
+clear = leftIsClear & frontIsClear & rightIsClear
+
+# store the actual number of steps taken
+# until you bumped (returned by "forward")
+actual = forward(100)
+
+if(clear){
+     right(2)
+     forward(actual) # go back
+}
+left(y)
+```
+
+## End
+
+Akan menyebabkan seluruh program berhenti ketika instruksi ini dijalankan.
+
+Contoh:
+```py
+# stop after 5 steps, or earlier when you encounter a beacon on the right
+repeat(5) {
+	forward(1)
+	if(rightIsBeacon) {
+		end # stops execution of the program
+	}
+}
+# normal end of the program
+```
 
 [>> Materi Berikutnya(Operasi Assignment dan Aritmatika)](3-OperasiAssignmentdanAritmatika.md)
