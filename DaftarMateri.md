@@ -1,9 +1,9 @@
 <h1>Daftar Materi Praktikum Konsep Pemrograman</h1>
 
 - Bab 1 - Robomind
-  1. [Pengantar Robomind (Program Sederhana, Variabel, dan Basic I/O)](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%201-Robomind/1-Robomind)
-  2. sss
-  3. 8
+  1. [Robomind Basic Instructions](https://github.com/Swordigo15/PraktikumKP2023/blob/9e1148a53e7838c0c3a5f1cc6065b0e9f568df70/Bab%201-Robomind/1-BasicInstructions.md)
+  2. [Robomind Programming structures](https://github.com/Swordigo15/PraktikumKP2023/blob/9e1148a53e7838c0c3a5f1cc6065b0e9f568df70/Bab%201-Robomind/2-ProgrammingStructures.md)
+  3. [Contoh Program Robomind](https://github.com/Swordigo15/PraktikumKP2023/blob/9e1148a53e7838c0c3a5f1cc6065b0e9f568df70/Bab%201-Robomind/3-ContohProgramRobomind.md)
      
 - Bab 2 - Structured Programming
   1. [Pengantar (Program Sederhana, Variabel, dan Basic I/O)](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Bab%202-StructuredProgramming/1-PengantarProgramSederhanaVariabel.md)
