@@ -2,7 +2,8 @@
 # 2.2 - Robomind Programming structures
 
 Di dalam materi ini, Anda akan menemukan berbagai struktur gramatikal yang diperbolehkan untuk mendefinisikan perilaku robot, yang akan membantu Anda memahami cara mengendalikan robot dengan lebih baik.
-
+<br>
+<br>
 ## Comments
 Semua teks yang muncul setelah tanda pagar, '#', tidak akan diinterpretasikan sebagai instruksi. Robot akan melanjutkan untuk membaca baris berikutnya dalam skrip. Gunakan kemungkinan ini untuk memberikan catatan pada bagian-bagian skrip, hanya untuk diri Anda sendiri, sebagai dokumentasi tentang bagaimana bagian-bagian ini bekerja.
 
