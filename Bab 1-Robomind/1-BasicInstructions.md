@@ -21,8 +21,8 @@ Ada beberapa cara untuk memberikan instruksi pada aplikasi ini :
 ## Contoh-contoh Instruksi Robomind
 Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Berikut daftar instruksi yang dapat diberikan.
 
-| Tipe      | Command        | Deskripsi                                                 |
-| ---       | ---            | ---                                                       |
+| Tipe      | Command          | Deskripsi                                                 |
+| ---       | ---              | ---                                                       |
 | Move      | `forward(n)`     | Berjalan n langkah ke depan                               |
 |           | `backward(n)`    | Berjalan n langkah kebelakang                             |
 |           | `left()`         | Berputar ke kiri 90 derajat                               |
@@ -41,12 +41,12 @@ Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Beriku
 
 ## Kondisi
 Perintah di bawah digunakan untuk melakukan pengecekan terhadap lingkungan robotnya.
-| see       | Kiri             | Depan             | Kanan             |
-| ---       | ---              | ---               | ---               |
-|           | leftIsObstacle() | frontIsObstacle() | rightIsObstacle() |
-|           | leftIsClear()    | frontIsClear()    | rightIsClear()    |
-|           | leftIsBeacon()   | frontIsBeacon()   | rightIsBeacon()   |
-|           | leftIsWhite()    | frontIsWhite()    | rightIsWhite()    |
-|           | leftIsBlack()    | frontIsBlack()    | rightIsBlack()    |
+| see       | Kiri               | Depan               | Kanan               |
+| ---       | ---                | ---                 | ---                 |
+|           | `leftIsObstacle()` | `frontIsObstacle()` | `rightIsObstacle()` |
+|           | `leftIsClear()`    | `frontIsClear()`    | `rightIsClear()`    |
+|           | `leftIsBeacon()`   | `frontIsBeacon()`   | `rightIsBeacon()`   |
+|           | `leftIsWhite()`    | `frontIsWhite()`    | `rightIsWhite()`    |
+|           | `leftIsBlack()`    | `frontIsBlack()`    | `rightIsBlack()`    |
 
-[>> Materi Berikutnya (Programming Structures) <<](2-ProgrammingStructures.md)
+[>> Materi Berikutnya (Programming Structures) ](2-ProgrammingStructures.md)
