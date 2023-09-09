@@ -51,7 +51,7 @@ Memungkinkan kode untuk keluar dari loop (misalnya bagian yang berulang) sehingg
 # keep going forward, until you can't go any further
 repeat() {
 	if(frontIsObstacle) {
-		break
+		break()
 	}
 	else {
 		forward(1)
@@ -67,12 +67,12 @@ Akan menjalankan instruksi di antara tanda kurung kurawal, hanya jika kondisinya
 ```py
 # if you see white paint on your left, make it black
 if(leftIsWhite) {
-	left
+	left()
 	forward(1)
-	paintBlack
-	stopPainting
+	paintBlack()
+	stopPainting()
 	backward(1)
-	right
+	right()
 }
 ```
 
@@ -85,10 +85,10 @@ Akan menjalankan instruksi di antara pasangan tanda kurung kurawal pertama, hany
 if(leftIsWhite) {
 	left
 	forward(1)
-	paintBlack
-	stopPainting
+	paintBlack()
+	stopPainting()
 	backward(1)
-	right
+	right()
 }
 else {
 	forward(3)
@@ -103,7 +103,7 @@ Ekspresi logis dapat berupa [Instruksi Persepsi](1-BasicInstructions.md), misaln
 Contoh:
 ```py
 if(leftIsWhite) {
-    left
+    left()
     forward(1)
 }
 ```
@@ -111,10 +111,56 @@ if(leftIsWhite) {
 Namun kondisi ini juga dapat disempurnakan agar lebih menunjukkan dengan lebih tepat kapan instruksi terkait harus dieksekusi dengan menggunakan (kombinasi) operator berikut.
 
 |Operation	|Notation	|Keterangan	|Penjelasan	|
-|:-----:  	|:----:		|:------:	|-----------	|
+|:-----:  	|:----:		|----------	|-----------	|
 |`not`		|`~`		|tidak(NOT)	|Dijalankan apabila kondisi A tidak bernilai benar |
 |`and`		|`&`		|dan(AND)	|Dijalankan apabila kondisi A dan B semuanya benar |
 |`or`		|`\|`		|atau(OR)	|Dijalankan apabila salah satu dari A dan B bernilai benar|
 
+Nilai benar dan salah juga dapat diterapkan secara langsung seolah-olah merupakan instruksi persepsi.
+
+Urutan operator itu penting (seperti perkalian dan penjumlahan bilangan). Operasi tidak mengikat paling kuat, diikuti oleh dan, diikuti oleh atau. Tanda kurung dapat digunakan untuk mempengaruhi urutan evaluasi.
+
+Contoh:
+```py
+repeatWhile(not frontIsClear and (leftIsWhite or rightIsWhite)) {
+    forward(1)
+}
+
+if(flipCoin and not rightIsWhite) {
+    right()
+    backward(1)
+}
+
+if(true and false) {
+    # this instruction is never executed
+    forward(1)
+}
+
+```
+
+### Comparing numbers
+Jenis ekspresi logis lainnya adalah perbandingan angka. Kemudian Anda dapat membuat keputusan berdasarkan nilai yang diberikan. Misalnya, hanya ke kanan jika variabel tertentu kurang dari 5.
+
+Contoh:
+```py
+forward()
+maybeToRight(8)
+forward()
+
+procedure maybeToRight(n){
+    if(n < 5){
+        right
+    }
+}
+```
+Ini adalah daftar lengkap pembanding yang akan membantu Anda memahami perbedaan antara berbagai hal yang dibahas dalam materi ini.
+|Operator	|Keterangan				|Penjelasan					|
+|--		|--					|--						|
+|A == B		|sama dengan				|Cek jika A sama dengan B			|
+|A ~= B		|tidak sama dengan			|Cek jika A tidak sama dengan B			|
+|A > B		|lebih besar dari			|Cek jika A lebih besar dari B			|
+|A >= B		|lebih besar dari atau sama dengan	|Cek jika A lebih besar dari atau sama dengan B	|
+|A < B		|kurang dari				|Cek jika A kurang dari B			|
+|A <= B		|kurang dari atau sama dengan		|Cek jika A kurang dari atau sama dengan B	|
 
 [>> Materi Berikutnya(Operasi Assignment dan Aritmatika)](3-OperasiAssignmentdanAritmatika.md)
