@@ -1,21 +1,22 @@
 # Robomind
 ![img](https://github.com/Swordigo15/PraktikumKP2023/blob/main/Material/Screenshot%20(193).png)
 
-<br>
+**RoboMind** adalah sebuah aplikasi pemrograman sederhana untuk tujuan pendidikan. Aplikasi ini memiliki berbagai aturan pemrogramannya sendiri untuk melatih para pemula dalam mempelajari dasar-dasar logika pemrograman. Aplikasi ini menunjukkan simulasi robot yang dapat digerakkan dengan perintah-perintah yang tersedia. Selain untuk memperkenal teknik-teknik pemrograman, aplikasi ini juga bertujuan untuk mengenalkan robotika dan intelegensi artifisial.
 
-<p>RoboMind adalah sebuah aplikasi pemrograman sederhana untuk tujuan pendidikan. Aplikasi ini memiliki berbagai aturan pemrogramannya sendiri untuk melatih para pemula dalam mempelajari dasar-dasar logika pemrograman. Aplikasi ini menunjukkan simulasi robot yang dapat digerakkan dengan perintah-perintah yang tersedia. Selain untuk memperkenal teknik-teknik pemrograman, aplikasi ini juga bertujuan untuk mengenalkan robotika dan intelegensi artifisial. </p>
-
+## Instruksi Dasar
 Pada aplikasi ini terdapat bebrapa instruksi dasar, yaitu : 
 + Move
 + See
 + Paint
 + Grab
 
+## Pemberian Instruksi
 Ada beberapa cara untuk memberikan instruksi pada aplikasi ini :
 1. Menekan Tombol
 2. Menyeret mouse
 3. Mengetik perintah
 
+## Contoh-contoh Instruksi Robomind
 Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Berikut daftar instruksi yang dapat diberikan.
 
 | Tipe      | Command        | Deskripsi                                                 |
@@ -36,6 +37,7 @@ Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Beriku
 |           | eatUp()        | Mengambil dan menghancurkan beacon yang ada didepan robot |
 | Flip Coin | flipCoin()     | Menghasilkan pilihan secara random (true atau false)      |
 
+## Kondisi
 | see       | Kiri             | Depan             | Kanan             |
 | ---       | ---              | ---               | ---               |
 |           | leftIsObstacle() | frontIsObstacle() | rightIsObstacle() |
@@ -43,3 +45,5 @@ Untuk materi kali ini kita hanya akan memberikan perintah dengan tulisan. Beriku
 |           | leftIsBeacon()   | frontIsBeacon()   | rightIsBeacon()   |
 |           | leftIsWhite()    | frontIsWhite()    | rightIsWhite()    |
 |           | leftIsBlack()    | frontIsBlack()    | rightIsBlack()    |
+
+[>> Materi Berikutnya (Programming Structures) <<](2-ProgrammingStructures.md)
