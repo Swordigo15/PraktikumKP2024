@@ -45,8 +45,6 @@ repeat(){
 right()
 forward(8)
 
-
-# Keep on track step by step
 repeat()
 {
     if(frontIsWhite()){	
