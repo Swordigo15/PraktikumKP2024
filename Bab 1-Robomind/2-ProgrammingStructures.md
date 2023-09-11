@@ -1,5 +1,5 @@
 [<<Materi Sebelumnya(Robomind Basic Instructions)](1-BasicInstructions.md)
-# 2.2 - Robomind Programming structures
+# 1.2 - Robomind Programming structures
 
 Di dalam materi ini, Anda akan menemukan berbagai struktur gramatikal yang diperbolehkan untuk mendefinisikan perilaku robot, yang akan membantu Anda memahami cara mengendalikan robot dengan lebih baik.
 
