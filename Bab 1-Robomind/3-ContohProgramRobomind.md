@@ -23,7 +23,7 @@ stopPainting()
 
 ## Contoh 2 : Mencari Titik Putih
 
-'''py
+```py
 repeat(){
     if(leftIsWhite()){
         # There's a white spot on your left
@@ -36,14 +36,17 @@ repeat(){
         forward(1)
     }
 }
-'''
+```
 
 ## Contoh 3 : Mengikuti Garis
 
-'''py
+```py
+# Go to the start of the line
 right()
 forward(8)
 
+
+# Keep on track step by step
 repeat()
 {
     if(frontIsWhite()){	
@@ -59,4 +62,4 @@ repeat()
         end
     }
 }
-'''
+```
