@@ -41,7 +41,6 @@ repeat(){
 ## Contoh 3 : Mengikuti Garis
 
 '''py
-# Go to the start of the line
 right()
 forward(8)
 
