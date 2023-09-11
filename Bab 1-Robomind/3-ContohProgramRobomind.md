@@ -23,6 +23,8 @@ stopPainting()
 
 ## Contoh 2 : Mencari Titik Putih
 
+File : findSpot1.map
+
 ```py
 repeat(){
     if(leftIsWhite()){
@@ -39,6 +41,8 @@ repeat(){
 ```
 
 ## Contoh 3 : Mengikuti Garis
+
+File : default.map
 
 ```py
 # Go to the start of the line
@@ -59,6 +63,32 @@ repeat()
         left()
     }
     else if(frontIsObstacle()){
+        end
+    }
+}
+```
+
+# Contoh 4 : Labirin
+
+File : maze1.map
+
+```py
+repeat(){	
+    if(rightIsObstacle()){
+        if(frontIsClear()){
+            forward(1)
+        }
+        else{
+            left()
+        }
+    }
+    else{
+        right()
+        forward(1)
+    }
+
+    if(frontIsBeacon()){	
+        pickUp()
         end
     }
 }
