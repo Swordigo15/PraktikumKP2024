@@ -1,4 +1,4 @@
-[<<Materi Sebelumnya(Robomind Programming Structures)](1-ProgrammingStructures.md)
+[<<Materi Sebelumnya(Robomind Programming Structures)](2-ProgrammingStructures.md)
 # 1.2 - Robomind Programming structures
 
 ## Contoh 1 : Menuliskan Nama
