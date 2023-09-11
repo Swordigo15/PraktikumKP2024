@@ -3,7 +3,7 @@
 
 ## Contoh 1 : Menuliskan Nama
 
-'''
+```py
 #character 'A'
 paintWhite()
 
@@ -16,7 +16,7 @@ forward(2)
 backward(1)
 right()
 forward(1)
-'''
+```
 
 stopPainting()
 
