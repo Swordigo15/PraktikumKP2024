@@ -16,9 +16,50 @@ forward(2)
 backward(1)
 right()
 forward(1)
-```
 
 stopPainting()
+```
+
 
 ## Contoh 2 : Mencari Titik Putih
+
+'''py
+repeat(){
+    if(leftIsWhite()){
+        # There's a white spot on your left
+        left()
+        forward(1)
+        end
+    }
+    else{
+        # There's no white spot yet
+        forward(1)
+    }
+}
+'''
+
 ## Contoh 3 : Mengikuti Garis
+
+'''py
+# Go to the start of the line
+right()
+forward(8)
+
+
+# Keep on track step by step
+repeat()
+{
+    if(frontIsWhite()){	
+        forward(1)
+    }
+    else if(rightIsWhite()){
+        right()
+    }
+    else if(leftIsWhite()){
+        left()
+    }
+    else if(frontIsObstacle()){
+        end
+    }
+}
+'''
