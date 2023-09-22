@@ -150,6 +150,27 @@ scanf("%s %d %f", name, &number, &real);
 ```
 Potongan fungsi di atas akan menangkap masukan pengguna yang dibatasi oleh spasi, dan urut berupa string, integer, dan float, dari kiri ke kanan. Dengan menginput `Halo 12 43.93`, program akan memasukkan "Halo" ke variabel `name`, 12 ke variabel `number`, dan 43.93 ke variabel `real`.  Diperlukan *ampersand* (`&`) di depan variabel berjenis integer/floating point, namun tidak akan dijelaskan alasannya sekarang. *Do as above*
 Fungsi `scanf()` yang kita gunakan ini memiliki sebuah kekurangan, yaitu tidak bisa menerima *string* yang ber-spasi. Namun, kita akan tetap menggunakan metode ini untuk sekarang.
+
+Jika kalian ingin memasukkan input dengan banyak kata, kalian bisa menggunakan fgets, berikut syntax dari fgets.
+
+```c
+fgets(char *str, int n, FILE *stream)
+```
+
+dengan 
+- char *str merupakan variabel yang akan diisi;
+- int n merupakan jumlah maksmal karakter yang diinputkan;
+- FILE *stream untuk saat ini diisi dengan stdin
+
+```c
+#include <stdio.h>
+
+int main(){
+	char nama[100]
+	fgets(nama, 100, stdin);
+}
+```
+
 > Cobalah bereksperimen dengan memberikan masukan ber spasi, atau menghapus ampersand (&) di awal variabel integer dan floating point!
 
 <br />
