@@ -166,8 +166,9 @@ dengan
 #include <stdio.h>
 
 int main(){
-	char nama[100]
+	char nama[100];
 	fgets(nama, 100, stdin);
+	printf("%s", nama);
 }
 ```
 
