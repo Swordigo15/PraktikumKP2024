@@ -30,10 +30,12 @@ Continue digunakan untuk melakukan skip atau melompati suatu iterasi dan melanju
 
     int i = 0;
     while(i<10) {
+        if(i==6) {
+            i++;
+            continue;
+        }
         printf("perulangan ke %d kali\n",i);
         i++;
-        if(i==6) 
-            continue;
     }
 
 Output
@@ -44,7 +46,6 @@ Output
     perulangan ke 3 kali
     perulangan ke 4 kali
     perulangan ke 5 kali
-    perulangan ke 6 kali
     perulangan ke 7 kali
     perulangan ke 8 kali
     perulangan ke 9 kali
