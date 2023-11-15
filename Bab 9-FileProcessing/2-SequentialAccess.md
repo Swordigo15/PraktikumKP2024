@@ -84,9 +84,9 @@ if (f != NULL) {
 /*
 Output:
 
-Masukkan nama : Adriel_Alfeus
+Masukkan nama : Annys
 Masukkan prodi : Informatika
-Masukkan angkatan : 2020
+Masukkan angkatan : 2022
 Menyimpan ke biodata.txt ...
 Sukses!
 */
@@ -94,9 +94,9 @@ Sukses!
 
 Isi file **biodata.txt** setelahnya:
 ```
-Adriel_Alfeus
+Annys
 Informatika
-2020
+2022
 ```
 
 ## Rewind
